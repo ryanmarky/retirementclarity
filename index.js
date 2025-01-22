@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 3000;
 
 app.set('views', __dirname + '/views');
 app.engine('html', require('ejs').renderFile);
@@ -9,8 +8,3 @@ app.get('/', (req, res) => {
   res.render('website.html');
 });
 
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}
-https://127.0.0.1:3000/
-    `);
-});
