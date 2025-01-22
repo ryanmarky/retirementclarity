@@ -10,5 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+  console.log(`Server listening on port ${port}
+https://127.0.0.1:3000/
+    `);
 });
